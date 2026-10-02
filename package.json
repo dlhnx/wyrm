@@ -1,0 +1,31 @@
+{
+  "name": "wyrm",
+  "version": "1.0.0",
+  "description": "You will build **wyrm**, a small programming language, in TypeScript — by hand.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc",
+    "check": "npm run typecheck && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlhnx/wyrm.git"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dlhnx/wyrm/issues"
+  },
+  "homepage": "https://github.com/dlhnx/wyrm#readme",
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^7.0.2"
+  }
+}

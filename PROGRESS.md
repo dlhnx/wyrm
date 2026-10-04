@@ -4,7 +4,7 @@ A lesson is ticked only when: tests pass (`npm run check`), Study Drills are don
 and the review + quiz are passed.
 
 ## Part I — Reading code (scanner & parser)
-- [ ] 01 Setup
+- [x] 01 Setup
 - [ ] 02 Tokens
 - [ ] 03 Scanner I — punctuation, operators, comments
 - [ ] 04 Scanner II — strings, numbers, identifiers, keywords
@@ -36,3 +36,4 @@ and the review + quiz are passed.
 
 ## Notes
 <!-- Things that tripped you up, things to revisit. -->
+- 01: Imports need the real `.ts` extension (Node never guesses). Erasable = delete the TS parts and the JS left does the same thing; `enum` and parameter properties generate code, so they're rejected. `x?:` with exactOptionalPropertyTypes: may be missing, may not be `undefined`.
